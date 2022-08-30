@@ -17,9 +17,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseRouting();
 app.UseAuthorization();
-
-app.MapControllers();
+app.UseEndpoints(endpoints => { endpoints.MapControllers(); }); // Personal preference 
+// app.MapControllers(); Can be used instead of line immediately above (new for version 6)
 
 app.Run();
