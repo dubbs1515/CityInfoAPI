@@ -8,17 +8,35 @@ namespace CityInfo.API.Controllers
     //[Route("api/[controller]")]
     public class CitiesController : ControllerBase
     {
+        //[HttpGet()]
+        //public JsonResult GetCities()
+        //{
+        //    return new JsonResult(CitiesDataStore.Current.Cities);
+        //}
+        
         [HttpGet()]
-        public JsonResult GetCities()
+        public ActionResult<IEnumerable<CityModel>> GetCities()
         {
-            return new JsonResult(CitiesDataStore.Current.Cities);
+            return Ok(CitiesDataStore.Current.Cities);
         }
 
+        //[HttpGet("{id}")]
+        //public JsonResult GetCity(int id)
+        //{
+        //    JsonResult jsonResult = new JsonResult(CitiesDataStore.Current.Cities.FirstOrDefault(x => x.Id == id) ?? new CityModel() { Id = -1, Name = "Not Found", Description = "" });
+        //    jsonResult.StatusCode = 200;
+
+        //    return jsonResult;
+        //}
+        
         [HttpGet("{id}")]
-        public JsonResult GetCity(int id)
+        public ActionResult<CityModel> GetCity(int id)
         {
-            CityModel city = CitiesDataStore.Current.Cities.FirstOrDefault(x => x.Id == id) ?? new CityModel() { Id = -1, Name = "Not Found", Description = ""};
-            return new JsonResult(city);
+            var city = CitiesDataStore.Current.Cities.FirstOrDefault(x => x.Id == id);
+
+            if (city == null) { return NotFound(); }
+
+            return Ok(city);
         }
     }
 }
