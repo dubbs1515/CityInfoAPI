@@ -1,0 +1,28 @@
+        public void CreateHubSpecModel(HubSpecModel hsm)
+        {
+            using (SqlConnection conx = new SqlConnection(mMetalsDevConxString))
+            {
+                using (SqlCommand cmd = new SqlCommand("HubSpecificationInsertUpdate", conx))
+                {
+                    cmd.Parameters.AddWithValue("@HubSpecID", -1);
+                    cmd.Parameters.AddWithValue("@ProductId", hsm.ProductId);
+                    cmd.Parameters.AddWithValue("@Description", hsm.Description);
+                    cmd.Parameters.AddWithValue("@NominalBoreDiameter", hsm.NominalBoreDiameter);
+                    cmd.Parameters.AddWithValue("@TestPinDiameter", hsm.TestPinDiameter);
+                    cmd.Parameters.AddWithValue("@PeakForce1", hsm.PeakForce1);
+                    cmd.Parameters.AddWithValue("@PeakForce2", hsm.PeakForce2);
+                    cmd.Parameters.AddWithValue("@Plus", hsm.Plus);
+                    cmd.Parameters.AddWithValue("@Minus", hsm.Minus);
+                    cmd.Parameters.AddWithValue("@ReleasePosition", hsm.ReleasePosition);
+                    cmd.Parameters.AddWithValue("@StartPostion", hsm.StartPosition);
+                    cmd.Parameters.AddWithValue("@EndPosition", hsm.EndPosition);
+                    cmd.Parameters.AddWithValue("@DispositionId", hsm.DispositionId);
+                    cmd.Parameters.AddWithValue("@Notes", hsm.Notes);
+                    cmd.Parameters.AddWithValue("@ModifiedBy", "Chris.Dubbs");
+                    cmd.Parameters.AddWithValue("@ModifiedDateTime", DateTime.Now);
+
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.ExecuteNonQuery();
+                }
+            }
+        }
