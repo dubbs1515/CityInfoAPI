@@ -1,31 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\DubbsDevelop\\CityInfo\\CityInfo.API\\CityInfo.API.csproj": {}
+    "/Users/christopherdubbs/Develop/DotNet/CityInfoAPI/CityInfo.API/CityInfo.API.csproj": {}
   },
   "projects": {
-    "C:\\DubbsDevelop\\CityInfo\\CityInfo.API\\CityInfo.API.csproj": {
+    "/Users/christopherdubbs/Develop/DotNet/CityInfoAPI/CityInfo.API/CityInfo.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DubbsDevelop\\CityInfo\\CityInfo.API\\CityInfo.API.csproj",
+        "projectUniqueName": "/Users/christopherdubbs/Develop/DotNet/CityInfoAPI/CityInfo.API/CityInfo.API.csproj",
         "projectName": "CityInfo.API",
-        "projectPath": "C:\\DubbsDevelop\\CityInfo\\CityInfo.API\\CityInfo.API.csproj",
-        "packagesPath": "C:\\Users\\Christopher.Dubbs\\.nuget\\packages\\",
-        "outputPath": "C:\\DubbsDevelop\\CityInfo\\CityInfo.API\\obj\\",
+        "projectPath": "/Users/christopherdubbs/Develop/DotNet/CityInfoAPI/CityInfo.API/CityInfo.API.csproj",
+        "packagesPath": "/Users/christopherdubbs/.nuget/packages/",
+        "outputPath": "/Users/christopherdubbs/Develop/DotNet/CityInfoAPI/CityInfo.API/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Christopher.Dubbs\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/christopherdubbs/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,6 +39,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.JsonPatch": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
@@ -68,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
         }
       }
     }
