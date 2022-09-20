@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.StaticFiles;
 
-var builder = WebApplication.CreateBuilder(args);
+var builder = WebApplication.CreateBuilder(args) // Setup host
 
 // Add services to the container.
 
