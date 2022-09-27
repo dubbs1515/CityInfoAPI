@@ -1,0 +1,34 @@
+2022-09-24 17:27:46.410 -07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-09-24 17:27:46.470 -07:00 [DBG] Hosting starting
+2022-09-24 17:27:46.507 -07:00 [INF] Now listening on: http://localhost:20789
+2022-09-24 17:27:46.507 -07:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2022-09-24 17:27:46.507 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-24 17:27:46.507 -07:00 [INF] Hosting environment: Development
+2022-09-24 17:27:46.507 -07:00 [INF] Content root path: /Users/christopherdubbs/Develop/DotNet/CityInfoAPI/CityInfo.API/
+2022-09-24 17:27:46.507 -07:00 [DBG] Hosting started
+2022-09-24 17:27:46.597 -07:00 [DBG] Connection id "0HMKUHJ2HPKD3" accepted.
+2022-09-24 17:27:46.598 -07:00 [DBG] Connection id "0HMKUHJ2HPKD3" started.
+2022-09-24 17:27:47.544 -07:00 [DBG] Connection id "0HMKUHJ2HPKD3" received FIN.
+2022-09-24 17:27:47.547 -07:00 [DBG] Connection id "0HMKUHJ2HPKD3" sending FIN because: "The client closed the connection."
+2022-09-24 17:27:47.551 -07:00 [DBG] Connection id "0HMKUHJ2HPKD3" disconnecting.
+2022-09-24 17:27:47.552 -07:00 [DBG] Connection id "0HMKUHJ2HPKD3" stopped.
+2022-09-24 17:27:47.666 -07:00 [DBG] Connection id "0HMKUHJ2HPKD4" accepted.
+2022-09-24 17:27:47.692 -07:00 [DBG] Connection id "0HMKUHJ2HPKD4" started.
+2022-09-24 17:27:47.710 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:20789/ - -
+2022-09-24 17:27:47.712 -07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-09-24 17:27:47.734 -07:00 [DBG] The request path  does not match the path filter
+2022-09-24 17:27:47.735 -07:00 [WRN] Failed to determine the https port for redirect.
+2022-09-24 17:27:47.746 -07:00 [DBG] No candidates found for the request path '/'
+2022-09-24 17:27:47.746 -07:00 [DBG] Request did not match any endpoints
+2022-09-24 17:27:47.751 -07:00 [DBG] Connection id "0HMKUHJ2HPKD4" completed keep alive response.
+2022-09-24 17:27:47.752 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:20789/ - - - 404 0 - 43.9400ms
+2022-09-24 17:27:48.049 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:20789/favicon.ico - -
+2022-09-24 17:27:48.049 -07:00 [DBG] The request path  does not match the path filter
+2022-09-24 17:27:48.049 -07:00 [DBG] No candidates found for the request path '/favicon.ico'
+2022-09-24 17:27:48.049 -07:00 [DBG] Request did not match any endpoints
+2022-09-24 17:27:48.049 -07:00 [DBG] Connection id "0HMKUHJ2HPKD4" completed keep alive response.
+2022-09-24 17:27:48.049 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:20789/favicon.ico - - - 404 0 - 0.7217ms
+2022-09-24 17:29:43.201 -07:00 [DBG] Connection id "0HMKUHJ2HPKD4" received FIN.
+2022-09-24 17:29:43.250 -07:00 [DBG] Connection id "0HMKUHJ2HPKD4" disconnecting.
+2022-09-24 17:29:43.252 -07:00 [DBG] Connection id "0HMKUHJ2HPKD4" sending FIN because: "The client closed the connection."
+2022-09-24 17:29:43.307 -07:00 [DBG] Connection id "0HMKUHJ2HPKD4" stopped.

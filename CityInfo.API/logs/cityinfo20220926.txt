@@ -1,0 +1,334 @@
+2022-09-26 18:35:19.303 -07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-09-26 18:35:19.375 -07:00 [DBG] Hosting starting
+2022-09-26 18:35:19.415 -07:00 [INF] Now listening on: http://localhost:20789
+2022-09-26 18:35:19.415 -07:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2022-09-26 18:35:19.415 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-26 18:35:19.415 -07:00 [INF] Hosting environment: Development
+2022-09-26 18:35:19.415 -07:00 [INF] Content root path: /Users/christopherdubbs/Develop/DotNet/CityInfoAPI/CityInfo.API/
+2022-09-26 18:35:19.415 -07:00 [DBG] Hosting started
+2022-09-26 18:35:19.496 -07:00 [DBG] Connection id "0HML0524QF973" accepted.
+2022-09-26 18:35:19.496 -07:00 [DBG] Connection id "0HML0524QF973" started.
+2022-09-26 18:35:20.463 -07:00 [DBG] Connection id "0HML0524QF973" received FIN.
+2022-09-26 18:35:20.466 -07:00 [DBG] Connection id "0HML0524QF973" sending FIN because: "The client closed the connection."
+2022-09-26 18:35:20.470 -07:00 [DBG] Connection id "0HML0524QF973" disconnecting.
+2022-09-26 18:35:20.472 -07:00 [DBG] Connection id "0HML0524QF973" stopped.
+2022-09-26 18:35:20.523 -07:00 [DBG] Connection id "0HML0524QF974" accepted.
+2022-09-26 18:35:20.524 -07:00 [DBG] Connection id "0HML0524QF974" started.
+2022-09-26 18:35:20.578 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:20789/ - -
+2022-09-26 18:35:20.580 -07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-09-26 18:35:20.601 -07:00 [DBG] The request path  does not match the path filter
+2022-09-26 18:35:20.601 -07:00 [WRN] Failed to determine the https port for redirect.
+2022-09-26 18:35:20.612 -07:00 [DBG] No candidates found for the request path '/'
+2022-09-26 18:35:20.613 -07:00 [DBG] Request did not match any endpoints
+2022-09-26 18:35:20.618 -07:00 [DBG] Connection id "0HML0524QF974" completed keep alive response.
+2022-09-26 18:35:20.619 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:20789/ - - - 404 0 - 42.2185ms
+2022-09-26 18:35:20.914 -07:00 [DBG] Connection id "0HML0524QF974" received FIN.
+2022-09-26 18:35:20.915 -07:00 [DBG] Connection id "0HML0524QF974" sending FIN because: "The client closed the connection."
+2022-09-26 18:35:20.915 -07:00 [DBG] Connection id "0HML0524QF974" disconnecting.
+2022-09-26 18:35:20.916 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:20789/favicon.ico - -
+2022-09-26 18:35:20.916 -07:00 [DBG] The request path  does not match the path filter
+2022-09-26 18:35:20.916 -07:00 [DBG] No candidates found for the request path '/favicon.ico'
+2022-09-26 18:35:20.916 -07:00 [DBG] Request did not match any endpoints
+2022-09-26 18:35:20.916 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:20789/favicon.ico - - - 0 - - 0.4524ms
+2022-09-26 18:35:20.917 -07:00 [DBG] Connection id "0HML0524QF974" stopped.
+2022-09-26 18:35:33.656 -07:00 [DBG] Connection id "0HML0524QF975" accepted.
+2022-09-26 18:35:33.656 -07:00 [DBG] Connection id "0HML0524QF975" started.
+2022-09-26 18:35:33.657 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:20789/ - -
+2022-09-26 18:35:33.658 -07:00 [DBG] The request path  does not match the path filter
+2022-09-26 18:35:33.658 -07:00 [DBG] No candidates found for the request path '/'
+2022-09-26 18:35:33.659 -07:00 [DBG] Request did not match any endpoints
+2022-09-26 18:35:33.659 -07:00 [DBG] Connection id "0HML0524QF975" completed keep alive response.
+2022-09-26 18:35:33.659 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:20789/ - - - 404 0 - 1.6795ms
+2022-09-26 18:37:02.932 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:20789/ - -
+2022-09-26 18:37:02.933 -07:00 [DBG] The request path  does not match the path filter
+2022-09-26 18:37:02.933 -07:00 [DBG] No candidates found for the request path '/'
+2022-09-26 18:37:02.933 -07:00 [DBG] Request did not match any endpoints
+2022-09-26 18:37:02.933 -07:00 [DBG] Connection id "0HML0524QF975" completed keep alive response.
+2022-09-26 18:37:02.933 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:20789/ - - - 404 0 - 1.6411ms
+2022-09-26 18:38:58.284 -07:00 [DBG] Connection id "0HML0524QF975" received FIN.
+2022-09-26 18:38:58.331 -07:00 [DBG] Connection id "0HML0524QF975" disconnecting.
+2022-09-26 18:38:58.333 -07:00 [DBG] Connection id "0HML0524QF975" sending FIN because: "The client closed the connection."
+2022-09-26 18:38:58.356 -07:00 [DBG] Connection id "0HML0524QF975" stopped.
+2022-09-26 18:48:22.916 -07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-09-26 18:48:22.979 -07:00 [DBG] Hosting starting
+2022-09-26 18:48:23.011 -07:00 [INF] Now listening on: http://localhost:20789
+2022-09-26 18:48:23.011 -07:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2022-09-26 18:48:23.011 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-26 18:48:23.011 -07:00 [INF] Hosting environment: Development
+2022-09-26 18:48:23.011 -07:00 [INF] Content root path: /Users/christopherdubbs/Develop/DotNet/CityInfoAPI/CityInfo.API/
+2022-09-26 18:48:23.011 -07:00 [DBG] Hosting started
+2022-09-26 18:48:23.043 -07:00 [DBG] Connection id "0HML059EAV0A3" accepted.
+2022-09-26 18:48:23.044 -07:00 [DBG] Connection id "0HML059EAV0A3" started.
+2022-09-26 18:48:24.045 -07:00 [DBG] Connection id "0HML059EAV0A3" received FIN.
+2022-09-26 18:48:24.052 -07:00 [DBG] Connection id "0HML059EAV0A3" sending FIN because: "The client closed the connection."
+2022-09-26 18:48:24.061 -07:00 [DBG] Connection id "0HML059EAV0A3" disconnecting.
+2022-09-26 18:48:24.065 -07:00 [DBG] Connection id "0HML059EAV0A3" stopped.
+2022-09-26 18:48:24.077 -07:00 [DBG] Connection id "0HML059EAV0A4" accepted.
+2022-09-26 18:48:24.154 -07:00 [DBG] Connection id "0HML059EAV0A4" started.
+2022-09-26 18:48:24.169 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:20789/ - -
+2022-09-26 18:48:24.171 -07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-09-26 18:48:24.191 -07:00 [DBG] The request path  does not match the path filter
+2022-09-26 18:48:24.192 -07:00 [WRN] Failed to determine the https port for redirect.
+2022-09-26 18:48:24.201 -07:00 [DBG] No candidates found for the request path '/'
+2022-09-26 18:48:24.201 -07:00 [DBG] Request did not match any endpoints
+2022-09-26 18:48:24.204 -07:00 [DBG] Connection id "0HML059EAV0A4" completed keep alive response.
+2022-09-26 18:48:24.205 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:20789/ - - - 404 0 - 37.3074ms
+2022-09-26 18:50:21.225 -07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-09-26 18:50:21.285 -07:00 [DBG] Hosting starting
+2022-09-26 18:50:21.318 -07:00 [INF] Now listening on: http://localhost:20789
+2022-09-26 18:50:21.318 -07:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2022-09-26 18:50:21.318 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-26 18:50:21.318 -07:00 [INF] Hosting environment: Development
+2022-09-26 18:50:21.318 -07:00 [INF] Content root path: /Users/christopherdubbs/Develop/DotNet/CityInfoAPI/CityInfo.API/
+2022-09-26 18:50:21.318 -07:00 [DBG] Hosting started
+2022-09-26 18:50:21.398 -07:00 [DBG] Connection id "0HML05AHJLREN" accepted.
+2022-09-26 18:50:21.398 -07:00 [DBG] Connection id "0HML05AHJLREN" started.
+2022-09-26 18:50:22.344 -07:00 [DBG] Connection id "0HML05AHJLREN" received FIN.
+2022-09-26 18:50:22.375 -07:00 [DBG] Connection id "0HML05AHJLREO" accepted.
+2022-09-26 18:50:22.376 -07:00 [DBG] Connection id "0HML05AHJLREO" started.
+2022-09-26 18:50:22.379 -07:00 [DBG] Connection id "0HML05AHJLREN" sending FIN because: "The client closed the connection."
+2022-09-26 18:50:22.386 -07:00 [DBG] Connection id "0HML05AHJLREN" disconnecting.
+2022-09-26 18:50:22.387 -07:00 [DBG] Connection id "0HML05AHJLREN" stopped.
+2022-09-26 18:50:22.422 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:20789/ - -
+2022-09-26 18:50:22.424 -07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-09-26 18:50:22.446 -07:00 [DBG] The request path  does not match the path filter
+2022-09-26 18:50:22.447 -07:00 [WRN] Failed to determine the https port for redirect.
+2022-09-26 18:50:22.457 -07:00 [DBG] No candidates found for the request path '/'
+2022-09-26 18:50:22.457 -07:00 [DBG] Request did not match any endpoints
+2022-09-26 18:50:22.461 -07:00 [DBG] Connection id "0HML05AHJLREO" completed keep alive response.
+2022-09-26 18:50:22.461 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:20789/ - - - 404 0 - 41.3224ms
+2022-09-26 18:52:11.945 -07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-09-26 18:52:12.004 -07:00 [DBG] Hosting starting
+2022-09-26 18:52:12.038 -07:00 [INF] Now listening on: http://localhost:20790
+2022-09-26 18:52:12.038 -07:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2022-09-26 18:52:12.038 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-26 18:52:12.039 -07:00 [INF] Hosting environment: Development
+2022-09-26 18:52:12.039 -07:00 [INF] Content root path: /Users/christopherdubbs/Develop/DotNet/CityInfoAPI/CityInfo.API/
+2022-09-26 18:52:12.039 -07:00 [DBG] Hosting started
+2022-09-26 18:52:12.081 -07:00 [DBG] Connection id "0HML05BIJ7TB7" accepted.
+2022-09-26 18:52:12.082 -07:00 [DBG] Connection id "0HML05BIJ7TB7" started.
+2022-09-26 18:52:13.053 -07:00 [DBG] Connection id "0HML05BIJ7TB7" received FIN.
+2022-09-26 18:52:13.056 -07:00 [DBG] Connection id "0HML05BIJ7TB7" sending FIN because: "The client closed the connection."
+2022-09-26 18:52:13.062 -07:00 [DBG] Connection id "0HML05BIJ7TB7" disconnecting.
+2022-09-26 18:52:13.064 -07:00 [DBG] Connection id "0HML05BIJ7TB7" stopped.
+2022-09-26 18:52:13.073 -07:00 [DBG] Connection id "0HML05BIJ7TB8" accepted.
+2022-09-26 18:52:13.073 -07:00 [DBG] Connection id "0HML05BIJ7TB8" started.
+2022-09-26 18:52:13.117 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:20790/ - -
+2022-09-26 18:52:13.119 -07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-09-26 18:52:13.140 -07:00 [DBG] The request path  does not match the path filter
+2022-09-26 18:52:13.140 -07:00 [WRN] Failed to determine the https port for redirect.
+2022-09-26 18:52:13.150 -07:00 [DBG] No candidates found for the request path '/'
+2022-09-26 18:52:13.150 -07:00 [DBG] Request did not match any endpoints
+2022-09-26 18:52:13.154 -07:00 [DBG] Connection id "0HML05BIJ7TB8" completed keep alive response.
+2022-09-26 18:52:13.155 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:20790/ - - - 404 0 - 39.3082ms
+2022-09-26 18:52:13.462 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:20790/favicon.ico - -
+2022-09-26 18:52:13.463 -07:00 [DBG] The request path  does not match the path filter
+2022-09-26 18:52:13.463 -07:00 [DBG] No candidates found for the request path '/favicon.ico'
+2022-09-26 18:52:13.464 -07:00 [DBG] Request did not match any endpoints
+2022-09-26 18:52:13.464 -07:00 [DBG] Connection id "0HML05BIJ7TB8" completed keep alive response.
+2022-09-26 18:52:13.464 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:20790/favicon.ico - - - 404 0 - 1.7242ms
+2022-09-26 18:58:47.287 -07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-09-26 18:58:47.349 -07:00 [DBG] Hosting starting
+2022-09-26 18:58:47.382 -07:00 [INF] Now listening on: http://localhost:20790
+2022-09-26 18:58:47.382 -07:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2022-09-26 18:58:47.382 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-26 18:58:47.382 -07:00 [INF] Hosting environment: Development
+2022-09-26 18:58:47.382 -07:00 [INF] Content root path: /Users/christopherdubbs/Develop/DotNet/CityInfoAPI/CityInfo.API/
+2022-09-26 18:58:47.382 -07:00 [DBG] Hosting started
+2022-09-26 18:58:47.480 -07:00 [DBG] Connection id "0HML05F8E21O7" accepted.
+2022-09-26 18:58:47.481 -07:00 [DBG] Connection id "0HML05F8E21O7" started.
+2022-09-26 18:58:48.404 -07:00 [DBG] Connection id "0HML05F8E21O7" received FIN.
+2022-09-26 18:58:48.410 -07:00 [DBG] Connection id "0HML05F8E21O7" sending FIN because: "The client closed the connection."
+2022-09-26 18:58:48.420 -07:00 [DBG] Connection id "0HML05F8E21O7" disconnecting.
+2022-09-26 18:58:48.423 -07:00 [DBG] Connection id "0HML05F8E21O7" stopped.
+2022-09-26 18:58:48.425 -07:00 [DBG] Connection id "0HML05F8E21O8" accepted.
+2022-09-26 18:58:48.529 -07:00 [DBG] Connection id "0HML05F8E21O8" started.
+2022-09-26 18:58:48.613 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:20790/ - -
+2022-09-26 18:58:48.615 -07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-09-26 18:58:48.643 -07:00 [DBG] The request path  does not match the path filter
+2022-09-26 18:58:48.644 -07:00 [WRN] Failed to determine the https port for redirect.
+2022-09-26 18:58:48.656 -07:00 [DBG] No candidates found for the request path '/'
+2022-09-26 18:58:48.656 -07:00 [DBG] Request did not match any endpoints
+2022-09-26 18:58:48.660 -07:00 [DBG] Connection id "0HML05F8E21O8" completed keep alive response.
+2022-09-26 18:58:48.661 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:20790/ - - - 404 0 - 50.9451ms
+2022-09-26 18:58:48.681 -07:00 [DBG] Connection id "0HML05F8E21O8" received FIN.
+2022-09-26 18:58:48.681 -07:00 [DBG] Connection id "0HML05F8E21O8" sending FIN because: "The client closed the connection."
+2022-09-26 18:58:48.681 -07:00 [DBG] Connection id "0HML05F8E21O8" disconnecting.
+2022-09-26 18:58:48.681 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:20790/favicon.ico - -
+2022-09-26 18:58:48.682 -07:00 [DBG] The request path  does not match the path filter
+2022-09-26 18:58:48.682 -07:00 [DBG] No candidates found for the request path '/favicon.ico'
+2022-09-26 18:58:48.682 -07:00 [DBG] Request did not match any endpoints
+2022-09-26 18:58:48.682 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:20790/favicon.ico - - - 0 - - 0.5201ms
+2022-09-26 18:58:48.682 -07:00 [DBG] Connection id "0HML05F8E21O8" stopped.
+2022-09-26 19:00:02.142 -07:00 [DBG] Connection id "0HML05F8E21O9" received FIN.
+2022-09-26 19:00:02.168 -07:00 [DBG] Connection id "0HML05F8E21O9" accepted.
+2022-09-26 19:00:02.194 -07:00 [DBG] Connection id "0HML05F8E21O9" started.
+2022-09-26 19:00:02.197 -07:00 [DBG] Connection id "0HML05F8E21O9" sending FIN because: "The client closed the connection."
+2022-09-26 19:00:02.194 -07:00 [DBG] Connection id "0HML05F8E21OA" accepted.
+2022-09-26 19:00:02.220 -07:00 [DBG] Connection id "0HML05F8E21O9" disconnecting.
+2022-09-26 19:00:02.220 -07:00 [DBG] Connection id "0HML05F8E21OA" started.
+2022-09-26 19:00:02.221 -07:00 [DBG] Connection id "0HML05F8E21O9" stopped.
+2022-09-26 19:00:02.231 -07:00 [DBG] Connection id "0HML05F8E21OA" bad request data: "Detected a TLS handshake to an endpoint that does not have TLS enabled."
+Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Detected a TLS handshake to an endpoint that does not have TLS enabled.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.GetUnknownMethodLength(ReadOnlySpan`1 span)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, ReadOnlySpan`1 requestLine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TakeStartLine(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ParseRequest(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TryParseRequest(ReadResult result, Boolean& endConnection)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+2022-09-26 19:00:02.292 -07:00 [DBG] Connection id "0HML05F8E21OA" disconnecting.
+2022-09-26 19:00:02.293 -07:00 [DBG] Connection id "0HML05F8E21OA" stopped.
+2022-09-26 19:00:02.293 -07:00 [DBG] Connection id "0HML05F8E21OA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-26 19:00:03.268 -07:00 [DBG] Connection id "0HML05F8E21OB" received FIN.
+2022-09-26 19:00:03.268 -07:00 [DBG] Connection id "0HML05F8E21OB" accepted.
+2022-09-26 19:00:03.269 -07:00 [DBG] Connection id "0HML05F8E21OB" started.
+2022-09-26 19:00:03.269 -07:00 [DBG] Connection id "0HML05F8E21OB" sending FIN because: "The client closed the connection."
+2022-09-26 19:00:03.269 -07:00 [DBG] Connection id "0HML05F8E21OC" accepted.
+2022-09-26 19:00:03.271 -07:00 [DBG] Connection id "0HML05F8E21OC" started.
+2022-09-26 19:00:03.271 -07:00 [DBG] Connection id "0HML05F8E21OB" disconnecting.
+2022-09-26 19:00:03.271 -07:00 [DBG] Connection id "0HML05F8E21OB" stopped.
+2022-09-26 19:00:03.272 -07:00 [DBG] Connection id "0HML05F8E21OC" bad request data: "Detected a TLS handshake to an endpoint that does not have TLS enabled."
+Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Detected a TLS handshake to an endpoint that does not have TLS enabled.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.GetUnknownMethodLength(ReadOnlySpan`1 span)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, ReadOnlySpan`1 requestLine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TakeStartLine(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ParseRequest(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TryParseRequest(ReadResult result, Boolean& endConnection)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+2022-09-26 19:00:03.274 -07:00 [DBG] Connection id "0HML05F8E21OC" disconnecting.
+2022-09-26 19:00:03.274 -07:00 [DBG] Connection id "0HML05F8E21OC" stopped.
+2022-09-26 19:00:03.275 -07:00 [DBG] Connection id "0HML05F8E21OC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-26 19:00:07.353 -07:00 [DBG] Connection id "0HML05F8E21OD" received FIN.
+2022-09-26 19:00:07.355 -07:00 [DBG] Connection id "0HML05F8E21OD" accepted.
+2022-09-26 19:00:07.355 -07:00 [DBG] Connection id "0HML05F8E21OD" started.
+2022-09-26 19:00:07.356 -07:00 [DBG] Connection id "0HML05F8E21OE" accepted.
+2022-09-26 19:00:07.356 -07:00 [DBG] Connection id "0HML05F8E21OD" sending FIN because: "The client closed the connection."
+2022-09-26 19:00:07.357 -07:00 [DBG] Connection id "0HML05F8E21OD" disconnecting.
+2022-09-26 19:00:07.357 -07:00 [DBG] Connection id "0HML05F8E21OE" started.
+2022-09-26 19:00:07.357 -07:00 [DBG] Connection id "0HML05F8E21OD" stopped.
+2022-09-26 19:00:07.360 -07:00 [DBG] Connection id "0HML05F8E21OE" bad request data: "Detected a TLS handshake to an endpoint that does not have TLS enabled."
+Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Detected a TLS handshake to an endpoint that does not have TLS enabled.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.GetUnknownMethodLength(ReadOnlySpan`1 span)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, ReadOnlySpan`1 requestLine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TakeStartLine(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ParseRequest(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TryParseRequest(ReadResult result, Boolean& endConnection)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+2022-09-26 19:00:07.363 -07:00 [DBG] Connection id "0HML05F8E21OE" disconnecting.
+2022-09-26 19:00:07.363 -07:00 [DBG] Connection id "0HML05F8E21OE" stopped.
+2022-09-26 19:00:07.365 -07:00 [DBG] Connection id "0HML05F8E21OE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-26 19:00:08.200 -07:00 [DBG] Connection id "0HML05F8E21OF" received FIN.
+2022-09-26 19:00:08.201 -07:00 [DBG] Connection id "0HML05F8E21OF" accepted.
+2022-09-26 19:00:08.202 -07:00 [DBG] Connection id "0HML05F8E21OG" accepted.
+2022-09-26 19:00:08.202 -07:00 [DBG] Connection id "0HML05F8E21OF" started.
+2022-09-26 19:00:08.202 -07:00 [DBG] Connection id "0HML05F8E21OF" sending FIN because: "The client closed the connection."
+2022-09-26 19:00:08.202 -07:00 [DBG] Connection id "0HML05F8E21OF" disconnecting.
+2022-09-26 19:00:08.202 -07:00 [DBG] Connection id "0HML05F8E21OF" stopped.
+2022-09-26 19:00:08.204 -07:00 [DBG] Connection id "0HML05F8E21OG" started.
+2022-09-26 19:00:08.205 -07:00 [DBG] Connection id "0HML05F8E21OG" bad request data: "Detected a TLS handshake to an endpoint that does not have TLS enabled."
+Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Detected a TLS handshake to an endpoint that does not have TLS enabled.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.GetUnknownMethodLength(ReadOnlySpan`1 span)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, ReadOnlySpan`1 requestLine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TakeStartLine(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ParseRequest(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TryParseRequest(ReadResult result, Boolean& endConnection)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+2022-09-26 19:00:08.207 -07:00 [DBG] Connection id "0HML05F8E21OG" disconnecting.
+2022-09-26 19:00:08.207 -07:00 [DBG] Connection id "0HML05F8E21OG" stopped.
+2022-09-26 19:00:08.208 -07:00 [DBG] Connection id "0HML05F8E21OG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-26 19:07:18.726 -07:00 [DBG] Connection id "0HML05F8E21OH" accepted.
+2022-09-26 19:07:18.777 -07:00 [DBG] Connection id "0HML05F8E21OH" started.
+2022-09-26 19:07:23.674 -07:00 [DBG] Connection id "0HML05F8E21OH" received FIN.
+2022-09-26 19:07:23.674 -07:00 [DBG] Connection id "0HML05F8E21OH" disconnecting.
+2022-09-26 19:07:23.675 -07:00 [DBG] Connection id "0HML05F8E21OH" stopped.
+2022-09-26 19:07:23.675 -07:00 [DBG] Connection id "0HML05F8E21OH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-26 19:12:53.038 -07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-09-26 19:12:53.098 -07:00 [DBG] Hosting starting
+2022-09-26 19:12:53.130 -07:00 [INF] Now listening on: http://localhost:20790
+2022-09-26 19:12:53.130 -07:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2022-09-26 19:12:53.130 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-26 19:12:53.130 -07:00 [INF] Hosting environment: Development
+2022-09-26 19:12:53.131 -07:00 [INF] Content root path: /Users/christopherdubbs/Develop/DotNet/CityInfoAPI/CityInfo.API/
+2022-09-26 19:12:53.131 -07:00 [DBG] Hosting started
+2022-09-26 19:12:53.237 -07:00 [DBG] Connection id "0HML05N4FQBC9" accepted.
+2022-09-26 19:12:53.237 -07:00 [DBG] Connection id "0HML05N4FQBC9" started.
+2022-09-26 19:12:54.187 -07:00 [DBG] Connection id "0HML05N4FQBC9" received FIN.
+2022-09-26 19:12:54.193 -07:00 [DBG] Connection id "0HML05N4FQBC9" sending FIN because: "The client closed the connection."
+2022-09-26 19:12:54.202 -07:00 [DBG] Connection id "0HML05N4FQBC9" disconnecting.
+2022-09-26 19:12:54.203 -07:00 [DBG] Connection id "0HML05N4FQBC9" stopped.
+2022-09-26 19:12:54.212 -07:00 [DBG] Connection id "0HML05N4FQBCA" accepted.
+2022-09-26 19:12:54.213 -07:00 [DBG] Connection id "0HML05N4FQBCA" started.
+2022-09-26 19:12:54.263 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:20790/ - -
+2022-09-26 19:12:54.265 -07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-09-26 19:12:54.286 -07:00 [DBG] The request path  does not match the path filter
+2022-09-26 19:12:54.287 -07:00 [WRN] Failed to determine the https port for redirect.
+2022-09-26 19:12:54.297 -07:00 [DBG] No candidates found for the request path '/'
+2022-09-26 19:12:54.297 -07:00 [DBG] Request did not match any endpoints
+2022-09-26 19:12:54.301 -07:00 [DBG] Connection id "0HML05N4FQBCA" completed keep alive response.
+2022-09-26 19:12:54.302 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:20790/ - - - 404 0 - 41.1230ms
+2022-09-26 19:13:52.169 -07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-09-26 19:13:52.228 -07:00 [DBG] Hosting starting
+2022-09-26 19:13:52.261 -07:00 [INF] Now listening on: http://localhost:20790
+2022-09-26 19:13:52.261 -07:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2022-09-26 19:13:52.261 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-26 19:13:52.261 -07:00 [INF] Hosting environment: Development
+2022-09-26 19:13:52.261 -07:00 [INF] Content root path: /Users/christopherdubbs/Develop/DotNet/CityInfoAPI/CityInfo.API/
+2022-09-26 19:13:52.261 -07:00 [DBG] Hosting started
+2022-09-26 19:13:52.314 -07:00 [DBG] Connection id "0HML05NM378KN" accepted.
+2022-09-26 19:13:52.314 -07:00 [DBG] Connection id "0HML05NM378KN" started.
+2022-09-26 19:13:53.289 -07:00 [DBG] Connection id "0HML05NM378KN" received FIN.
+2022-09-26 19:13:53.295 -07:00 [DBG] Connection id "0HML05NM378KN" sending FIN because: "The client closed the connection."
+2022-09-26 19:13:53.304 -07:00 [DBG] Connection id "0HML05NM378KN" disconnecting.
+2022-09-26 19:13:53.307 -07:00 [DBG] Connection id "0HML05NM378KN" stopped.
+2022-09-26 19:13:53.311 -07:00 [DBG] Connection id "0HML05NM378KO" accepted.
+2022-09-26 19:13:53.364 -07:00 [DBG] Connection id "0HML05NM378KO" started.
+2022-09-26 19:13:53.381 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:20790/ - -
+2022-09-26 19:13:53.382 -07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-09-26 19:13:53.402 -07:00 [DBG] The request path  does not match the path filter
+2022-09-26 19:13:53.403 -07:00 [WRN] Failed to determine the https port for redirect.
+2022-09-26 19:13:53.413 -07:00 [DBG] No candidates found for the request path '/'
+2022-09-26 19:13:53.413 -07:00 [DBG] Request did not match any endpoints
+2022-09-26 19:13:53.417 -07:00 [DBG] Connection id "0HML05NM378KO" completed keep alive response.
+2022-09-26 19:13:53.418 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:20790/ - - - 404 0 - 39.0455ms
+2022-09-26 19:15:24.621 -07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-09-26 19:15:24.683 -07:00 [DBG] Hosting starting
+2022-09-26 19:15:24.716 -07:00 [INF] Now listening on: http://localhost:20789
+2022-09-26 19:15:24.716 -07:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2022-09-26 19:15:24.716 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-26 19:15:24.716 -07:00 [INF] Hosting environment: Development
+2022-09-26 19:15:24.716 -07:00 [INF] Content root path: /Users/christopherdubbs/Develop/DotNet/CityInfoAPI/CityInfo.API/
+2022-09-26 19:15:24.716 -07:00 [DBG] Hosting started
+2022-09-26 19:15:24.800 -07:00 [DBG] Connection id "0HML05OHL7U8H" accepted.
+2022-09-26 19:15:24.801 -07:00 [DBG] Connection id "0HML05OHL7U8H" started.
+2022-09-26 19:15:25.747 -07:00 [DBG] Connection id "0HML05OHL7U8H" received FIN.
+2022-09-26 19:15:25.753 -07:00 [DBG] Connection id "0HML05OHL7U8H" sending FIN because: "The client closed the connection."
+2022-09-26 19:15:25.762 -07:00 [DBG] Connection id "0HML05OHL7U8H" disconnecting.
+2022-09-26 19:15:25.763 -07:00 [DBG] Connection id "0HML05OHL7U8H" stopped.
+2022-09-26 19:15:25.772 -07:00 [DBG] Connection id "0HML05OHL7U8I" accepted.
+2022-09-26 19:15:25.824 -07:00 [DBG] Connection id "0HML05OHL7U8I" started.
+2022-09-26 19:15:25.842 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:20789/ - -
+2022-09-26 19:15:25.843 -07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-09-26 19:15:25.864 -07:00 [DBG] The request path  does not match the path filter
+2022-09-26 19:15:25.865 -07:00 [WRN] Failed to determine the https port for redirect.
+2022-09-26 19:15:25.876 -07:00 [DBG] No candidates found for the request path '/'
+2022-09-26 19:15:25.876 -07:00 [DBG] Request did not match any endpoints
+2022-09-26 19:15:25.880 -07:00 [DBG] Connection id "0HML05OHL7U8I" completed keep alive response.
+2022-09-26 19:15:25.880 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:20789/ - - - 404 0 - 40.6259ms
+2022-09-26 19:15:26.185 -07:00 [DBG] Connection id "0HML05OHL7U8I" received FIN.
+2022-09-26 19:15:26.185 -07:00 [DBG] Connection id "0HML05OHL7U8I" sending FIN because: "The client closed the connection."
+2022-09-26 19:15:26.185 -07:00 [DBG] Connection id "0HML05OHL7U8I" disconnecting.
+2022-09-26 19:15:26.186 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:20789/favicon.ico - -
+2022-09-26 19:15:26.186 -07:00 [DBG] The request path  does not match the path filter
+2022-09-26 19:15:26.186 -07:00 [DBG] No candidates found for the request path '/favicon.ico'
+2022-09-26 19:15:26.186 -07:00 [DBG] Request did not match any endpoints
+2022-09-26 19:15:26.186 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:20789/favicon.ico - - - 0 - - 0.7386ms
+2022-09-26 19:15:26.187 -07:00 [DBG] Connection id "0HML05OHL7U8I" stopped.
+2022-09-26 19:20:09.302 -07:00 [DBG] Config reload token fired. Checking for changes...
